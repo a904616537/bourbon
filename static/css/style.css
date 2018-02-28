@@ -1,0 +1,149 @@
+/*  header  */
+ul{margin: 0; padding: 0;}
+.float-left{float: left;}
+.float-right{float: right;}
+.header{
+	background-color : #272123;
+	height           : 80px;
+	color            : #fff;
+	padding          : 0 40px;
+}
+.header:after{
+	display : block;
+	content : ''; 
+	clear   : both;
+	height  : 0;
+}
+.header .nav-bar{
+	font-size   : 18px;
+	line-height : 80px;
+	width       : 41%;
+}
+.header li{
+	list-style : none;
+	float      : left;
+	width      : 25%;
+	text-align : center;
+}
+.header .nav-logo{
+	width : 232px;
+}
+.header .nav-img{
+	width : 54px;
+}
+
+
+/*  content  */
+.content .inner{
+	width            : 460px;
+	position         : relative;
+	left             : 50%;
+	margin-left      : -230px;
+	padding          : 180px 0;
+	text-align       : center;
+	color            : #fff;
+}
+.content .index-logo{
+	width         : 100px;
+	margin-bottom : 20px;
+}
+.content .index-p{
+	font-size : 26px;
+}
+.content .index-btn{
+	width            : 228px;
+	line-height      : 50px;
+	background-color : #843A1C;
+	border-radius    : 5px;
+	margin           : 50px auto 0;
+	font-size        : 20px;
+}
+
+
+/*  footer  */
+.footer{
+	position : fixed;
+	bottom   : 0;
+	left     : 0;
+	right    : 0;
+}
+.footer .row{
+	margin           : 0 122px;
+	background-color : rgba(0,0,0,.6);
+	color            : #fff;
+	padding          : 10px 20px;
+}
+.footer .footer-img{
+	width    : 60px;
+	position : absolute;
+	bottom   : -10px;
+	right    : 10px;
+}
+.footer span{
+	font-size : 18px;
+	display   : inline-block;
+	width     : 100px;
+}
+.footer p{
+	font-size : 16px;
+	margin    : 0;
+}
+
+
+/*  适应  */
+@media screen and (min-width: 980px) and (max-width: 1370px){
+	.header{
+		height  : 60px;
+		padding : 0 14px;
+	}
+	.header .nav-bar{
+		font-size   : 14px;
+		line-height : 60px;
+	}
+	.header .nav-logo{
+		width : 162px;
+	}
+	.content .index-p{
+		font-size : 22px;
+	}
+	.content .index-btn{
+		font-size : 16px;
+		width     : 161px;
+	}
+	.footer span{
+		font-size : 16px;
+	}
+	.footer p{
+		font-size : 14px;
+	}
+}
+@media screen and (min-width: 726px) and (max-width: 980px){
+	.header{
+		padding : 0;
+		height  : 40px;
+	}
+	.header .nav-bar{
+		font-size   : 12px;
+		width       : 42%;
+		line-height : 40px;
+	}
+	.header .nav-logo{
+		width : 102px;
+	}
+	.content .index-p{
+		font-size: 14px;
+	}
+	.content .index-btn{
+		font-size : 14px;
+		width     : 161px;
+	}
+	.footer .row{
+		margin : 0; 
+	}
+	.footer span{
+		font-size : 14px;
+	}
+	.footer p{
+		font-size : 12px;
+	}
+}
