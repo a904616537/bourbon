@@ -1,7 +1,9 @@
 /*  header  */
-ul{margin: 0; padding: 0;}
+a:hover{text-decoration: none; color: #fff;}
+a{color: #fff;}
 .float-left{float: left;}
 .float-right{float: right;}
+.clearfloat{clear: both; display: table; content: ''; height: 0;}
 .header{
 	background-color : #272123;
 	height           : 80px;
@@ -19,11 +21,22 @@ ul{margin: 0; padding: 0;}
 	line-height : 80px;
 	width       : 41%;
 }
-.header li{
+.header .nav-bar li{
 	list-style : none;
 	float      : left;
 	width      : 25%;
 	text-align : center;
+}
+.header .nav-bar li:hover .dropdown{
+	/*display: block;*/
+}
+.header .nav-bar .dropdown a{
+	/*display : none;*/
+	background-color: #fff;
+	color: #333;
+}
+.header .dropdown li{
+	line-height: 50px;
 }
 .header .nav-logo{
 	width : 232px;
@@ -53,7 +66,8 @@ ul{margin: 0; padding: 0;}
 .content .index-btn{
 	width            : 228px;
 	line-height      : 50px;
-	background-color : #843A1C;
+	/*background-color : #843A1C;*/
+	background-color : #ae8648;
 	border-radius    : 5px;
 	margin           : 50px auto 0;
 	font-size        : 20px;
@@ -61,6 +75,97 @@ ul{margin: 0; padding: 0;}
 
 /* Menu Items */
 
+<<<<<<< HEAD
+
+/*  gallery  */
+.gallery-banner{
+	background      : url('../imgs/gallery-banner.jpg') top center no-repeat;
+	background-size : 100% auto;
+}
+.gallery-banner:after{
+	content : '';
+	display : block;
+	padding : 25%;
+}
+.gallery-content{
+	padding          : 60px 100px;
+	color            : #AE8648;
+	background-color : #fff;
+}
+.gallery-title{
+	margin-bottom : 65px;
+	font-size     : 24px;
+	text-align    : center;
+}
+.gallery-text{
+	font-size     : 16px;
+	line-height   : 60px;
+	margin-bottom : 20px;
+}
+
+
+
+/*  careers  */
+.careers-content{
+	background-color : #75807F;
+	padding          : 0 220px;			
+}
+.careers-content .inner{
+	background      : url('../imgs/careers.jpg') top center no-repeat;
+	height          : 1500px;
+	background-size : auto 100%;
+}
+
+
+/*  contact  */
+.contact-bg{
+	background: url('../imgs/bg.jpg') top center repeat-y;
+	background-size : 100% auto;
+}
+.contact-content .inner{
+	background-color : rgba(255,255,255,.75);
+	margin           : 100px auto;
+	width            : 1000px;
+	padding          : 50px 50px 70px;
+}
+.contact-content .contact-title{
+	font-size     : 24px;
+	color         : #AE8648;
+	text-align    : center;
+	margin-bottom : 50px;
+}
+.contact-content .map-img{
+	float        : left;
+	margin-right : 35px;
+}
+.contact-content .infor{
+	padding     : 75px 0;
+	line-height : 30px;
+}
+.contact-content .infor-item:not(:last-child){
+	margin-bottom : 20px;
+}
+.contact-content .infor-title{
+	font-size : 18px;
+	color     : #AE8648;
+}
+.contact-content .infor-text{
+	font-size : 16px;
+}
+
+
+/*  footer  */
+.footer{
+	position : fixed;
+	bottom   : 0;
+	left     : 0;
+	right    : 0;
+}
+.footer .row{
+	margin           : 0 122px;
+	background-color : rgba(0,0,0,.6);
+	color            : #fff;
+}
 .content .menu-splash{
 	width            : 1440px;
 	height			  : 720px;
@@ -68,7 +173,6 @@ ul{margin: 0; padding: 0;}
 	margin 			  : 0px auto;
 	padding          : 223px 0 348px;
 	text-align       : center;
-	color            : #fff;
 }
 
 .menu-btn{
@@ -248,6 +352,11 @@ ul {
 
 
 /*  适应  */
+@media screen and (min-width: 1442px){
+	.header{
+		padding : 0 300px;
+	}
+}
 @media screen and (min-width: 980px) and (max-width: 1370px){
 	.header{
 		height  : 60px;
