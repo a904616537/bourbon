@@ -62,10 +62,11 @@ ul{margin: 0; padding: 0;}
 /* Menu Items */
 
 .content .menu-splash{
-	width            : 1000px;
+	width            : 1440px;
+	height			  : 720px;
 	left             : 50%;
 	margin 			  : 0px auto;
-	padding          : 180px 0;
+	padding          : 223px 0 348px;
 	text-align       : center;
 	color            : #fff;
 }
@@ -74,7 +75,7 @@ ul{margin: 0; padding: 0;}
 	color: white;
 	width            : 228px;
 	line-height      : 50px;
-	background-color : #9C7338;
+	background-color : #AE8648;
 	border-radius    : 5px;
 	margin           : 50px 30px 0;
 	font-size        : 20px;
@@ -82,7 +83,11 @@ ul{margin: 0; padding: 0;}
 }
 
 .menu-page-title {
-	font-size: 48px
+	text-align: center;
+	font-size: 48px;
+	width: 272px;
+	height: 58px;
+	margin: 0 auto;
 }
 
 .menu{
@@ -90,22 +95,32 @@ ul{margin: 0; padding: 0;}
 }
 
 .inner-menu {
-	width            : 70%;
+	width            : 1000px;
 	margin           : 0 auto 60px;
 	padding      	  : 60px 60px;
 }
 
 /*Food Section*/
 
-.menu-title{
-	color: #9C7338;
-	font-size: 24px;
-	text-align: center;
-	position: relative;
-	bottom: 16px;
+
+
+.menu-section-headers {
+	margin: 40px auto 20px;
 }
 
 /* Menu Headers */
+
+.menu-title-container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.menu-title-space {
+	clear: both;
+	display: grid;
+	grid-template-columns: 227px auto 227px;
+	height: 16px;
+}
 
 .border-box {
 	content: "";
@@ -115,14 +130,12 @@ ul{margin: 0; padding: 0;}
    border-top: 1px solid;
 }
 
-.menu-title-container {
-	width:70%;
-	margin: 0 auto;
-}
-.menu-title-space {
-	clear: both;
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
+.menu-title{
+	color: #AE8648;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	bottom: 16px;
 }
 
 .menu-back {
@@ -199,7 +212,7 @@ ul.menu li:after {
 /* footer */
 .footer {
 	background-color: #702A16;
-	position: relative;
+	position: fixed;
 }
 .footer-blocks {
 	vertical-align: top;
