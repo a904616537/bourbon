@@ -44,6 +44,28 @@ a{color: #fff;}
 .header .nav-img{
 	width : 54px;
 }
+.banner-inner{
+	position         : absolute;
+	top              : 300px;
+	left             : 0;
+	right            : 0;
+	text-align       : center;
+	z-index          : 9;
+	color            : #fff;
+}
+.banner-inner .banner-title{
+	font-size     : 48px;
+	margin-bottom : 60px;
+	font-weight   : bold;
+}
+.banner-inner .banner-btn .btn{
+	background-color : #AE8648;
+	width            : 228px;
+	border-radius    : 5px;
+	font-size        : 20px;
+	margin           : 0 30px;
+	line-height      : 36px;
+}
 
 
 /*  content  */
@@ -75,7 +97,6 @@ a{color: #fff;}
 
 /* Menu Items */
 
-<<<<<<< HEAD
 
 /*  gallery  */
 .gallery-banner{
@@ -107,13 +128,20 @@ a{color: #fff;}
 
 /*  careers  */
 .careers-content{
-	background-color : #75807F;
-	padding          : 0 220px;			
+	padding          : 40px 220px;	
+	background-color : #fff;		
 }
-.careers-content .inner{
-	background      : url('../imgs/careers.jpg') top center no-repeat;
-	height          : 1500px;
-	background-size : auto 100%;
+.careers-content .careers-title{
+	font-size   : 26px;
+	line-height : 60px;
+	font-weight : bold;
+}
+.careers-content .item{
+	font-size     : 20px;
+	margin-bottom : 60px;
+}
+.careers-content .item span{
+	margin-left : 20px;
 }
 
 
@@ -126,20 +154,20 @@ a{color: #fff;}
 	background-color : rgba(255,255,255,.75);
 	margin           : 100px auto;
 	width            : 1000px;
-	padding          : 50px 50px 70px;
+	padding          : 50px 20px 70px 50px;
 }
 .contact-content .contact-title{
 	font-size     : 24px;
 	color         : #AE8648;
 	text-align    : center;
-	margin-bottom : 50px;
+	margin-bottom : 30px;
 }
 .contact-content .map-img{
 	float        : left;
 	margin-right : 35px;
 }
 .contact-content .infor{
-	padding     : 75px 0;
+	padding     : 50px 0;
 	line-height : 30px;
 }
 .contact-content .infor-item:not(:last-child){
@@ -155,13 +183,13 @@ a{color: #fff;}
 
 
 /*  footer  */
-.footer{
+.index-footer{
 	position : fixed;
 	bottom   : 0;
 	left     : 0;
 	right    : 0;
 }
-.footer .row{
+.index-footer .row{
 	margin           : 0 122px;
 	background-color : rgba(0,0,0,.6);
 	color            : #fff;
