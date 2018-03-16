@@ -113,11 +113,6 @@ a{color: #fff;}
 	color            : #AE8648;
 	background-color : #fff;
 }
-.gallery-title{
-	margin-bottom : 65px;
-	font-size     : 24px;
-	text-align    : center;
-}
 .gallery-text{
 	font-size     : 16px;
 	line-height   : 60px;
@@ -127,6 +122,15 @@ a{color: #fff;}
 
 
 /*  careers  */
+.careers-banner{
+	background      : url('../imgs/careers-banner.jpg') top center no-repeat;
+	background-size : 100% auto;
+}
+.careers-banner:after{
+	content : '';
+	display : block;
+	padding : 25%;
+}
 .careers-content{
 	padding          : 40px 220px;	
 	background-color : #fff;		
@@ -240,21 +244,21 @@ a{color: #fff;}
 /* Menu Headers */
 
 .border-box {
-	content: "";
-	width: 100%;
-   overflow: hidden;
-   height: 1em;
-   border-top: 1px solid;
+	content    : "";
+	width      : 100%;
+	overflow   : hidden;
+	height     : 1em;
+	border-top : 1px solid #000;
 }
 
 .menu-title-container {
-	width:70%;
-	margin: 0 auto;
+	width  : 70%;
+	margin : 0 auto;
 }
 .menu-title-space {
-	clear: both;
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
+	clear                 : both;
+	display               : grid;
+	grid-template-columns : 33% 33% 33%;
 }
 
 .menu-back {
@@ -270,10 +274,10 @@ ul.menu {
 }
 
 ul.menu li {
-	list-style:none;    
-   overflow:hidden;
-   padding:5px 0;
-   position:relative;
+	list-style : none;    
+	overflow   : hidden;
+	padding    : 5px 0;
+	position   : relative;
 }
 
 /* LEADER FORMATTING */
@@ -281,88 +285,88 @@ ul.menu li {
 ul.menu li { clear: both; }
 
 ul.menu li span:first-child {
-    float: left;
-    position: relative;
-    top: 2px;
-    padding: 0 1.2em 0 0;
-    margin: 0;
+	float    : left;
+	position : relative;
+	top      : 2px;
+	padding  : 0 1.2em 0 0;
+	margin   : 0;
 }
 ul.menu li span + span {
-    float: right;
-    position: relative;
-    top: 2px;
-    padding: 0 0 0 1.2em;
-    margin: 0;
-    text-align: right;
+	float      : right;
+	position   : relative;
+	top        : 2px;
+	padding    : 0 0 0 1.2em;
+	margin     : 0;
+	text-align : right;
 }
 
 ul.menu li:after {
-    content: "";
-    display: block;
-    overflow: hidden;
-    height: 1em;
-    border-bottom: 1px dashed;
+	content       : "";
+	display       : block;
+	overflow      : hidden;
+	height        : 1em;
+	border-bottom : 1px dashed;
 }
 
 /* Promo */
 .promo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: none solid;
-	border-color: red;
-	border-width: 100px;
-	position: relative;
-	bottom: 60px;
-	z-index: -1;
+	display      : block;
+	margin-left  : auto;
+	margin-right : auto;
+	border-style : none solid;
+	border-color : red;
+	border-width : 100px;
+	position     : relative;
+	bottom       : 60px;
+	z-index      : -1;
 }
 
 .promo-content{
-	z-index: -1;
+	z-index : -1;
 }
 
 .divider{
-	width            : 15px;
-	line-height      : 50px;
-	margin           : 15px 15px 0;
-	display          : inline-block; 
+	width       : 15px;
+	line-height : 50px;
+	margin      : 15px 15px 0;
+	display     : inline-block; 
 }
 
 /* footer */
 .footer {
-	background-color: #702A16;
-	position: relative;
+	background-color : #702A16;
+	position         : relative;
 }
 .footer-blocks {
-	vertical-align: top;
-	display: inline-block;
-	margin-right: 105px;
-	margin-left: 105px;
-	color: #fff;
+	vertical-align : top;
+	display        : inline-block;
+	margin-right   : 105px;
+	margin-left    : 105px;
+	color          : #fff;
 }
 .footer-blocks ul li {
-	margin-bottom: 24px;
-	font-size: 18px;
+	margin-bottom : 24px;
+	font-size     : 18px;
 }
 .footer .nav-logo {
-	width: 100px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
+	width        : 100px;
+	margin-right : auto;
+	margin-left  : auto;
+	display      : block;
 }
 
 .footer-blocks .footer-info {
-	display: inline-block;
-	width: 286px;
-	font-size: 16px;
-	vertical-align: top;
-	margin-left: 18px;
+	display        : inline-block;
+	width          : 286px;
+	font-size      : 16px;
+	vertical-align : top;
+	margin-left    : 18px;
 }
 .footer-icon {
-	width:50px;
+	width : 50px;
 }
 ul {
-	list-style-type: none;
+	list-style-type : none;
 }
 
 
