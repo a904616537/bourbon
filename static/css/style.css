@@ -44,6 +44,28 @@ a{color: #fff;}
 .header .nav-img{
 	width : 54px;
 }
+.banner-inner{
+	position         : absolute;
+	top              : 300px;
+	left             : 0;
+	right            : 0;
+	text-align       : center;
+	z-index          : 9;
+	color            : #fff;
+}
+.banner-inner .banner-title{
+	font-size     : 48px;
+	margin-bottom : 60px;
+	font-weight   : bold;
+}
+.banner-inner .banner-btn .btn{
+	background-color : #AE8648;
+	width            : 228px;
+	border-radius    : 5px;
+	font-size        : 20px;
+	margin           : 0 30px;
+	line-height      : 36px;
+}
 
 
 /*  content  */
@@ -87,11 +109,6 @@ a{color: #fff;}
 	color            : #AE8648;
 	background-color : #fff;
 }
-.gallery-title{
-	margin-bottom : 65px;
-	font-size     : 24px;
-	text-align    : center;
-}
 .gallery-text{
 	font-size     : 16px;
 	line-height   : 60px;
@@ -101,14 +118,30 @@ a{color: #fff;}
 
 
 /*  careers  */
-.careers-content{
-	background-color : #75807F;
-	padding          : 0 220px;			
+.careers-banner{
+	background      : url('../imgs/careers-banner.jpg') top center no-repeat;
+	background-size : 100% auto;
 }
-.careers-content .inner{
-	background      : url('../imgs/careers.jpg') top center no-repeat;
-	height          : 1500px;
-	background-size : auto 100%;
+.careers-banner:after{
+	content : '';
+	display : block;
+	padding : 25%;
+}
+.careers-content{
+	padding          : 40px 220px;	
+	background-color : #fff;		
+}
+.careers-content .careers-title{
+	font-size   : 26px;
+	line-height : 60px;
+	font-weight : bold;
+}
+.careers-content .item{
+	font-size     : 20px;
+	margin-bottom : 60px;
+}
+.careers-content .item span{
+	margin-left : 20px;
 }
 
 
@@ -121,20 +154,20 @@ a{color: #fff;}
 	background-color : rgba(255,255,255,.75);
 	margin           : 100px auto;
 	width            : 1000px;
-	padding          : 50px 50px 70px;
+	padding          : 50px 20px 70px 50px;
 }
 .contact-content .contact-title{
 	font-size     : 24px;
 	color         : #AE8648;
 	text-align    : center;
-	margin-bottom : 50px;
+	margin-bottom : 30px;
 }
 .contact-content .map-img{
 	float        : left;
 	margin-right : 35px;
 }
 .contact-content .infor{
-	padding     : 75px 0;
+	padding     : 50px 0;
 	line-height : 30px;
 }
 .contact-content .infor-item:not(:last-child){
@@ -150,14 +183,18 @@ a{color: #fff;}
 
 
 /*  footer  */
+
 .footer{
 	background-color: #702A16;
-	/*position : fixed;*/
+	position : relative;
+}
+.index-footer{
+	position : fixed;
 	bottom   : 0;
 	left     : 0;
 	right    : 0;
 }
-.footer .row{
+.index-footer .row{
 	margin           : 0 122px;
 	background-color : rgba(0,0,0,.6);
 	color            : #fff;
@@ -239,6 +276,7 @@ a{color: #fff;}
 
 /*top title*/
 .border-box {
+<<<<<<< HEAD
 	content: "";
 	width: 100%;
    overflow: hidden;
@@ -253,6 +291,23 @@ a{color: #fff;}
 	text-align: center;
 	position: relative;
 	bottom: 16px;
+=======
+	content    : "";
+	width      : 100%;
+	overflow   : hidden;
+	height     : 1em;
+	border-top : 1px solid #000;
+}
+
+.menu-title-container {
+	width  : 70%;
+	margin : 0 auto;
+}
+.menu-title-space {
+	clear                 : both;
+	display               : grid;
+	grid-template-columns : 33% 33% 33%;
+>>>>>>> ce5c9a1f1d48e4075ab05f3cea259b3680a69e16
 }
 
 .menu-back {
@@ -280,10 +335,10 @@ ul.menu {
 }
 
 ul.menu li {
-	list-style:none;    
-   overflow:hidden;
-   padding:5px 0;
-   position:relative;
+	list-style : none;    
+	overflow   : hidden;
+	padding    : 5px 0;
+	position   : relative;
 }
 
 /* LEADER FORMATTING */
@@ -291,80 +346,81 @@ ul.menu li {
 ul.menu li { clear: both; }
 
 ul.menu li span:first-child {
-    float: left;
-    position: relative;
-    top: 2px;
-    padding: 0 1.2em 0 0;
-    margin: 0;
+	float    : left;
+	position : relative;
+	top      : 2px;
+	padding  : 0 1.2em 0 0;
+	margin   : 0;
 }
 ul.menu li span + span {
-    float: right;
-    position: relative;
-    top: 2px;
-    padding: 0 0 0 1.2em;
-    margin: 0;
-    text-align: right;
+	float      : right;
+	position   : relative;
+	top        : 2px;
+	padding    : 0 0 0 1.2em;
+	margin     : 0;
+	text-align : right;
 }
 
 ul.menu li:after {
-    content: "";
-    display: block;
-    overflow: hidden;
-    height: 1em;
-    border-bottom: 1px dashed;
+	content       : "";
+	display       : block;
+	overflow      : hidden;
+	height        : 1em;
+	border-bottom : 1px dashed;
 }
 
 /* Promo */
 .promo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: none solid;
-	border-color: red;
-	border-width: 100px;
-	position: relative;
-	bottom: 60px;
-	z-index: -1;
+	display      : block;
+	margin-left  : auto;
+	margin-right : auto;
+	border-style : none solid;
+	border-color : red;
+	border-width : 100px;
+	position     : relative;
+	bottom       : 60px;
+	z-index      : -1;
 }
 
 .promo-content{
-	z-index: -1;
+	z-index : -1;
 }
 
 .divider{
-	width            : 15px;
-	line-height      : 50px;
-	margin           : 15px 15px 0;
-	display          : inline-block; 
+	width       : 15px;
+	line-height : 50px;
+	margin      : 15px 15px 0;
+	display     : inline-block; 
 }
 
 /* footer MENU */
 
 .footer-blocks {
-	vertical-align: top;
-	display: inline-block;
-	margin-right: 105px;
-	margin-left: 105px;
-	color: #fff;
+	vertical-align : top;
+	display        : inline-block;
+	margin-right   : 105px;
+	margin-left    : 105px;
+	color          : #fff;
 }
 .footer-blocks ul li {
-	margin-bottom: 24px;
-	font-size: 18px;
+	margin-bottom : 24px;
+	font-size     : 18px;
 }
 .footer .nav-logo {
-	width: 100px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
+	width        : 100px;
+	margin-right : auto;
+	margin-left  : auto;
+	display      : block;
 }
 
 .footer-blocks .footer-info {
-	display: inline-block;
-	width: 286px;
-	font-size: 16px;
-	vertical-align: top;
-	margin-left: 18px;
+	display        : inline-block;
+	width          : 286px;
+	font-size      : 16px;
+	vertical-align : top;
+	margin-left    : 18px;
 }
+
 .footer-icon-weibo {
 	width:44px;
 	margin-left: 7px;
@@ -372,9 +428,9 @@ ul.menu li:after {
 .footer-icon-weixin {
 	width:50px;
 	margin-left: 12px;
-}
+
 ul {
-	list-style-type: none;
+	list-style-type : none;
 }
 
 
