@@ -69,10 +69,59 @@
 			display : block;
 			padding : 25%;
 		}
-		.events-content{
-			
+		.events-banner .index-btn{
+			display          : inline-block;
+			background-color : #AE8648;
+			width            : 228px;
+			margin           : 0 30px;
+			font-size        : 20px;
+			line-height      : 50px;
+			border-radius    : 5px;
 		}
-
+		.events-content{
+			background-color : #fff;
+			padding          : 100px;
+			text-align       : left;
+			font-size        : 16px;
+		}
+		.events-content .event-tips{
+			background-color : #AE8648;
+			color            : #fff;
+			width            : 260px;
+			font-size        : 48px;
+			line-height      : 90px;
+			text-align       : center;
+			position         : absolute;
+			top              : -45px;
+			left             : 50%;
+			margin-left      : -130px;
+		}
+		.events-content .events-item{
+			background-color : #DFCFB6;
+			padding          : 105px 0px 50px;
+			position         : relative;
+			width            : 100%;
+			margin-bottom    : 146px;
+		}
+		.events-content .inner-box{
+			float   : left;
+			width   : 33.33%;
+			padding : 0 2.8vw;
+		}
+		.events-content .inner-title{
+			font-size   : 24px;
+			font-weight : bold;
+			line-height : 60px;
+		}
+		.events-content .events-img{
+			width  : 340px;
+			height : 360px;
+		}
+		.events-content .text-style{
+			font-size   : 26px;
+			text-align  : center;
+			line-height : 40px;
+		}
 	</style>
 
 	<body>
@@ -118,20 +167,90 @@
 			<!--END:HEADER-->
 			
 
-			<div class="events-banner">
+			<div class="events-banner changeLang">
 				<div class="banner-inner">
-					<div class="banner-title">OUR EVENTS</div>
-				</div>
-				<div class="index-btn">
-					<font class="en">SEE THE MENU</font>
-					<font class="zh">查看菜单</font>
+					<div class="banner-title">
+						<font class="en">OUR EVENTS</font>
+						<font class="zh">我们的活动</font>
+					</div>
+					<div class="banner-btn">
+						<a href="#sport"><div class="index-btn">
+							<font class="en">SPORTS</font>
+							<font class="zh">运动</font>
+						</div></a>
+						<a href="#music"><div class="index-btn">
+							<font class="en">MUSIC</font>
+							<font class="zh">音乐</font>
+						</div></a>
+						<a href="#reserve"><div class="index-btn">
+							<font class="en">RESERVE</font>
+							<font class="zh">储备</font>
+						</div></a>
+					</div>
 				</div>
 			</div>
 			<!-- END:BANNER -->
 
 
-			<div class="events-content">
-				
+			<div class="events-content changeLang">
+				<div class="events-item clearfloat" id="sport">
+					<div class="event-tips">
+						<font class="en">SPORTS</font>
+						<font class="zh">运动</font>
+					</div>
+					<div class="item-inner">
+						<div class="inner-box">
+							<img src="static/imgs/sport1.jpg" alt="" class="events-img">
+							<div class="inner-title">SPORT-1</div>
+							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
+						</div>
+						<div class="inner-box">
+							<img src="static/imgs/sport2.png" alt="" class="events-img">
+							<div class="inner-title">SPORT-2</div>
+							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
+						</div>
+						<div class="inner-box">
+							<img src="static/imgs/sport3.jpg" alt="" class="events-img">
+							<div class="inner-title">SPORT-3</div>
+							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
+						</div>
+					</div>
+				</div>
+				<div class="events-item clearfloat" id="music">
+					<div class="event-tips">
+						<font class="en">MUSIC</font>
+						<font class="zh">音乐</font>
+					</div>
+					<div class="item-inner">
+						<div class="inner-box">
+							<img src="static/imgs/music1.jpg" alt="" class="events-img">
+							<div class="inner-title">MUSIC-1</div>
+							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
+						</div>
+						<div class="inner-box">
+							<img src="static/imgs/music2.jpg" alt="" class="events-img">
+							<div class="inner-title">MUSIC-2</div>
+							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
+						</div>
+						<div class="inner-box">
+							<img src="static/imgs/music3.png" alt="" class="events-img">
+							<div class="inner-title">MUSIC-3</div>
+							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
+						</div>
+					</div>
+				</div>
+				<div class="events-item clearfloat" id="reserve">
+					<div class="event-tips">
+						<font class="en">RESERVE</font>
+						<font class="zh">储备</font>
+					</div>
+					<div class="item-inner">
+						<div class="text-style">
+							<font class="en">If you'd like to make a reservation for your own event, please contact us!<br/>(Kindly note: Reservations require a minimum party of 10.)</font>
+							<font class="zh">如果您想预约您的活动，请联系我们!<br/>(请注意:预订需要最少10人的聚会。)</font>
+						</div>
+					</div>
+				</div>
 			</div>
 			<!--END:CONTENT-->
 
