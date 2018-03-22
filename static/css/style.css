@@ -88,14 +88,11 @@ a{color: #fff;}
 .content .index-btn{
 	width            : 228px;
 	line-height      : 50px;
-	/*background-color : #843A1C;*/
 	background-color : #ae8648;
 	border-radius    : 5px;
 	margin           : 50px auto 0;
 	font-size        : 20px;
 }
-
-/* Menu Items */
 
 
 /*  gallery  */
@@ -119,6 +116,94 @@ a{color: #fff;}
 	margin-bottom : 20px;
 }
 
+
+/*  events  */
+
+.events-banner:after{
+	content : '';
+	display : block;
+	padding : 25%;
+}
+.events-banner .index-btn{
+	display          : inline-block;
+	background-color : #AE8648;
+	width            : 228px;
+	margin           : 0 30px;
+	font-size        : 20px;
+	line-height      : 50px;
+	border-radius    : 5px;
+}
+.events-content{
+	background-color : #fff;
+	padding          : 100px 100px 40px;
+	text-align       : left;
+	font-size        : 16px;
+}
+.events-content .event-tips{
+	background-color : #AE8648;
+	color            : #fff;
+	width            : 260px;
+	font-size        : 48px;
+	line-height      : 90px;
+	text-align       : center;
+	position         : absolute;
+	top              : -45px;
+	left             : 50%;
+	margin-left      : -130px;
+	font-weight      : bold;  
+}
+.events-content .event-bottomtip{
+	background-color : #AE8648;
+	color            : #fff;
+	width            : 416px;
+	line-height      : 60px;
+	position         : absolute;
+	bottom           : -30px;
+	left             : 50%;
+	margin-left      : -208px;
+	font-size        : 24px;
+	text-align       : center;
+	font-weight      : bold;
+}
+.events-content .tip-img{
+	width    : 40px;
+	position : relative;
+	top      : -3px;
+}
+.events-content .tip-span{
+	font-size   : 20px;
+	margin-left : 20px;
+	font-weight : normal;
+}
+.events-content .events-item{
+	background-color : #DFCFB6;
+	padding          : 105px 0px 50px;
+	position         : relative;
+	width            : 100%;
+	margin-bottom    : 146px;
+}
+.events-content .events-item:last-child{
+	padding: 80px 0 60px;
+}
+.events-content .inner-box{
+	float   : left;
+	width   : 33.33%;
+	padding : 0 2.8vw;
+}
+.events-content .inner-title{
+	font-size   : 24px;
+	font-weight : bold;
+	line-height : 60px;
+}
+.events-content .events-img{
+	width  : 340px;
+	height : 360px;
+}
+.events-content .text-style{
+	font-size   : 26px;
+	text-align  : center;
+	line-height : 40px;
+}
 
 
 /*  careers  */
@@ -186,7 +271,7 @@ a{color: #fff;}
 }
 
 
-/*  footer  */
+/*  index-footer  */
 .index-footer{
 	position : fixed;
 	bottom   : 0;
@@ -198,6 +283,11 @@ a{color: #fff;}
 	background-color : rgba(0,0,0,.6);
 	color            : #fff;
 }
+
+
+
+
+/* Menu Items */
 .content .menu-splash{
 	width            : 1000px;
 	left             : 50%;
@@ -218,27 +308,27 @@ a{color: #fff;}
 }
 
 .menu-page-title {
-	font-size: 48px
+	font-size : 48px;
 }
 
 .menu{
-	box-sizing       : border-box;
+	box-sizing : border-box;
 }
 
 .inner-menu {
-	width            : 70%;
-	margin           : 0 auto 60px;
-	padding      	  : 60px 60px;
+	width   : 70%;
+	margin  : 0 auto 60px;
+	padding : 60px 60px;
 }
 
 /*Food Section*/
 
 .menu-title{
-	color: #9C7338;
-	font-size: 24px;
-	text-align: center;
-	position: relative;
-	bottom: 16px;
+	color      : #9C7338;
+	font-size  : 24px;
+	text-align : center;
+	position   : relative;
+	bottom     : 16px;
 }
 
 /* Menu Headers */

@@ -1,4 +1,4 @@
-//中英文切换
+// 中英文切换
 	var type=navigator.appName
 	if (type=="Netscape"){
 	var lang = navigator.language
@@ -27,3 +27,6 @@
 			$('.changeLang .zh').show();
 		}
 	}
+
+
+
