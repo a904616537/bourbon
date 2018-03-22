@@ -292,9 +292,8 @@ a{color: #fff;}
 	bottom: 16px;
 	content    : "";
 	width      : 100%;
-	overflow   : hidden;
+	overflow   : visible;
 	height     : 1em;
-	border-top : 1px solid #000;
 }
 
 .menu-title-container {
