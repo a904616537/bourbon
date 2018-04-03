@@ -113,15 +113,15 @@
 						<font class="zh">我们的活动</font>
 					</div>
 					<div class="banner-btn">
-						<a href="#sport"><div class="index-btn">
+						<a href="#sport"><div class="btn">
 							<font class="en">SPORTS</font>
 							<font class="zh">运动</font>
 						</div></a>
-						<a href="#music"><div class="index-btn">
+						<a href="#music"><div class="btn">
 							<font class="en">MUSIC</font>
 							<font class="zh">音乐</font>
 						</div></a>
-						<a href="#reserve"><div class="index-btn">
+						<a href="#reserve"><div class="btn">
 							<font class="en">RESERVE</font>
 							<font class="zh">储备</font>
 						</div></a>
@@ -139,17 +139,17 @@
 					</div>
 					<div class="item-inner">
 						<div class="inner-box">
-							<img src="static/imgs/sport1.jpg" alt="" class="events-img">
+							<img src="static/imgs/sport1.jpg" alt="" class="events-img zoom" data-background="rgba(0, 0, 0, .6)"/>
 							<div class="inner-title">SPORT-1</div>
 							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
 						</div>
 						<div class="inner-box">
-							<img src="static/imgs/sport2.png" alt="" class="events-img">
+							<img src="static/imgs/sport2.png" alt="" class="events-img zoom" data-background="rgba(0, 0, 0, .6)"/>
 							<div class="inner-title">SPORT-2</div>
 							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
 						</div>
 						<div class="inner-box">
-							<img src="static/imgs/sport3.jpg" alt="" class="events-img">
+							<img src="static/imgs/sport3.jpg" alt="" class="events-img zoom" data-background="rgba(0, 0, 0, .6)"/>
 							<div class="inner-title">SPORT-3</div>
 							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
 						</div>
@@ -162,17 +162,17 @@
 					</div>
 					<div class="item-inner">
 						<div class="inner-box">
-							<img src="static/imgs/music1.jpg" alt="" class="events-img">
+							<img src="static/imgs/music1.jpg" alt="" class="events-img zoom" data-background="rgba(0, 0, 0, .6)"/>
 							<div class="inner-title">MUSIC-1</div>
 							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
 						</div>
 						<div class="inner-box">
-							<img src="static/imgs/music2.jpg" alt="" class="events-img">
+							<img src="static/imgs/music2.jpg" alt="" class="events-img zoom" data-background="rgba(0, 0, 0, .6)"/>
 							<div class="inner-title">MUSIC-2</div>
 							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
 						</div>
 						<div class="inner-box">
-							<img src="static/imgs/music3.png" alt="" class="events-img">
+							<img src="static/imgs/music3.png" alt="" class="events-img zoom" data-background="rgba(0, 0, 0, .6)"/>
 							<div class="inner-title">MUSIC-3</div>
 							<div class="inner-text">This is our the first sport. We hope you can enjoy it.</div>
 						</div>
@@ -258,9 +258,16 @@
 
 
 	<script type="text/javascript" src="static/js/jquery.min.js" ></script>
-	<script src="static/js/jquery.vidbacking.js" type="text/javascript"></script>
+	<!-- 点击图片放大效果 -->
+	<script type="text/javascript" src="static/js/lightense.es6"></script>
 	<script src="static/js/bootstrap.min.js"></script>
 	<script src="static/js/script.js"></script>
+	<script type="text/javascript">
+		window.addEventListener('load', function () {
+		  var el = document.querySelectorAll('img.zoom:not(.no-lightense),.lightense');
+		  Lightense(el);
+		  }, false);
+	</script>
 	</body>
 </html>
 

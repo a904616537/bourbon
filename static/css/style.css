@@ -116,6 +116,94 @@ a{color: #fff;}
 }
 
 
+/*  events  */
+
+.events-banner:after{
+	content : '';
+	display : block;
+	padding : 25%;
+}
+.events-banner .index-btn{
+	display          : inline-block;
+	background-color : #AE8648;
+	width            : 228px;
+	margin           : 0 30px;
+	font-size        : 20px;
+	line-height      : 50px;
+	border-radius    : 5px;
+}
+.events-content{
+	background-color : #fff;
+	padding          : 100px 100px 40px;
+	text-align       : left;
+	font-size        : 16px;
+}
+.events-content .event-tips{
+	background-color : #AE8648;
+	color            : #fff;
+	width            : 260px;
+	font-size        : 48px;
+	line-height      : 90px;
+	text-align       : center;
+	position         : absolute;
+	top              : -45px;
+	left             : 50%;
+	margin-left      : -130px;
+	font-weight      : bold;  
+}
+.events-content .event-bottomtip{
+	background-color : #AE8648;
+	color            : #fff;
+	width            : 416px;
+	line-height      : 60px;
+	position         : absolute;
+	bottom           : -30px;
+	left             : 50%;
+	margin-left      : -208px;
+	font-size        : 24px;
+	text-align       : center;
+	font-weight      : bold;
+}
+.events-content .tip-img{
+	width    : 40px;
+	position : relative;
+	top      : -3px;
+}
+.events-content .tip-span{
+	font-size   : 20px;
+	margin-left : 20px;
+	font-weight : normal;
+}
+.events-content .events-item{
+	background-color : #DFCFB6;
+	padding          : 105px 0px 50px;
+	position         : relative;
+	width            : 100%;
+	margin-bottom    : 146px;
+}
+.events-content .events-item:last-child{
+	padding: 80px 0 60px;
+}
+.events-content .inner-box{
+	float   : left;
+	width   : 33.33%;
+	padding : 0 2.8vw;
+}
+.events-content .inner-title{
+	font-size   : 24px;
+	font-weight : bold;
+	line-height : 60px;
+}
+.events-content .events-img{
+	width  : 340px;
+	height : 360px;
+}
+.events-content .text-style{
+	font-size   : 26px;
+	text-align  : center;
+	line-height : 40px;
+}
+
 
 /*  careers  */
 .careers-banner{
@@ -182,12 +270,16 @@ a{color: #fff;}
 }
 
 
+<<<<<<< HEAD
 /*  footer  */
 
 .footer{
 	background-color: #702A16;
 	position : relative;
 }
+=======
+/*  index-footer  */
+>>>>>>> 49dc9e94945798fdf385b65b3c707b1b52217bf2
 .index-footer{
 	position : fixed;
 	bottom   : 0;
@@ -200,7 +292,7 @@ a{color: #fff;}
 	color            : #fff;
 }
 
-/*menu top*/
+/* Menu Items */
 .content .menu-splash{
 	width            : 1440px;
 	height			  : 720px;
@@ -222,35 +314,19 @@ a{color: #fff;}
 }
 
 .menu-page-title {
-	text-align: center;
-	font-size: 48px;
-	width: 272px;
-	height: 58px;
-	margin: 0 auto;
-	color: #fff;
+	font-size : 48px;
 }
 
 
 /*menu back element*/
 .menu{
-	box-sizing       : border-box;
+	box-sizing : border-box;
 }
 
 .inner-menu {
-	width            : 1000px;
-	margin           : 0 auto 60px;
-	padding      	  : 0px 60px;
-	overflow         : visible;
-	background-image: url(../imgs/Import/shell-bg.png);
-}
-
-.inner-top {
-	width            : 1000px;
-	height           : 720px;
-	margin           : 0 auto;
-	padding      	  : 60px 60px 0px;
-	overflow         : hidden;
-	position: 		  : fixed;
+	width   : 70%;
+	margin  : 0 auto 60px;
+	padding : 60px 60px;
 }
 
 /*menu item elements*/
@@ -285,11 +361,16 @@ a{color: #fff;}
 }
 
 .menu-title{
-	color: #AE8648;
-	font-size: 24px;
-	text-align: center;
-	position: relative;
-	bottom: 16px;
+	color      : #9C7338;
+	font-size  : 24px;
+	text-align : center;
+	position   : relative;
+	bottom     : 16px;
+}
+
+/* Menu Headers */
+
+.border-box {
 	content    : "";
 	width      : 100%;
 	overflow   : visible;
