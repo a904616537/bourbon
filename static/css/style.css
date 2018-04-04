@@ -9,6 +9,11 @@ a{color: #fff;}
 	height           : 80px;
 	color            : #fff;
 	padding          : 0 40px;
+	position         : fixed;
+	top              : 0;
+	left             : 0;
+	right            : 0;
+	z-index          : 999;
 }
 .header:after{
 	display : block;
@@ -26,17 +31,6 @@ a{color: #fff;}
 	float      : left;
 	width      : 25%;
 	text-align : center;
-}
-.header .nav-bar li:hover .dropdown{
-	/*display: block;*/
-}
-.header .nav-bar .dropdown a{
-	/*display : none;*/
-	background-color: #fff;
-	color: #333;
-}
-.header .dropdown li{
-	line-height: 50px;
 }
 .header .nav-logo{
 	width : 232px;
@@ -234,16 +228,83 @@ a{color: #fff;}
 }
 
 
+/* about */
+.about-banner{
+	background      : url('static/imgs/about-banner.jpg') top center no-repeat;
+	background-size : 100% auto;
+}
+.about-banner:after{
+	content : '';
+	display : block;
+	padding : 25%;
+}
+.about-content{
+	background-color : #fff;
+}
+#story{
+	padding          : 60px 0 30px;
+	background-color : rgba(132,58,28,.2);
+	font-size        : 24px;
+}
+#story .story-text{
+	font-size   : 16px;
+	width       : 700px;
+	margin      : 0 auto 30px;
+	line-height : 30px;
+	text-align  : center;
+}
+#profile{
+	padding : 60px 0 0;
+}
+#profile .content{
+	background-color : rgba(132,58,28,.2);
+	margin           : 6em 12.5em 0;
+}
+#profile .about-item{
+	margin-bottom : 100px;
+	font-size     : 16px;
+	line-height   : 26px;
+	position      : relative;
+}
+#profile .about-img{
+	width    : 600px;
+	height   : 400px;
+}
+#profile .about-img-1{
+	float       : left;
+	margin-top  : -45px;
+	margin-left : -100px
+}
+#profile .about-img-2{
+	float        : right;
+	margin-top   : 45px;
+	margin-right : -100px;
+}
+#profile .about-title{
+	font-size   : 22px;
+	font-weight : bold;
+}
+#profile .inner-item{
+	padding : 20px 46px;
+	
+}
+#profile .item-2{
+	margin-top : 109px;
+}
+
+
 /*  contact  */
 .contact-bg{
-	background: url('../imgs/bg.jpg') top center repeat-y;
+	background      : url('../imgs/bg.jpg') top center repeat-y;
 	background-size : 100% auto;
+	margin-top      : 80px;
+}
+.contact-content .inner-box{
+	padding : 100px 0;
 }
 .contact-content .inner{
 	background-color : rgba(255,255,255,.75);
-	margin           : 100px auto;
-	width            : 1000px;
-	padding          : 50px 20px 70px 50px;
+	padding          : 50px 20px 90px 50px;
 }
 .contact-content .contact-title{
 	font-size     : 24px;
@@ -269,22 +330,170 @@ a{color: #fff;}
 .contact-content .infor-text{
 	font-size : 16px;
 }
+.contact-bg .bottom{
+	background-color : #843A1C;
+	text-align       : center;
+	padding          : 30px 0;
+	color            : #FFF;
+	font-size        : 18px;
+}
+.contact-bg .bottom-logo{
+	width : 100px;
+} 
+.contact-bg .bottom-inner{
+	padding : 0 220px;
+	width   : 100%;
+}
+.contact-bg .bottom-inner .float-left,.contact-bg .left-grid .bottom-item{
+	width : 50%;
+}
+.contact-bg .bottom-item{
+	float      : left;
+	text-align : left;
+}
+.contact-bg .bottom-item li{
+	margin-bottom : 24px;
+}
+.contact-bg .bottom-infor{
+	margin-left : 60px;
+}
+.contact-bg .item-left{
+	display      : inline-block;
+	margin-right : 20px;
+	float        : left;
+}
+.contact-bg .item-right{
+	display   : inline-block;
+	font-size : 16px;
+	width     : 64%;
+}
 
 
 /*  index-footer  */
-.index-footer{
-	position : fixed;
-	bottom   : 0;
-	left     : 0;
-	right    : 0;
-}
 .index-footer .row{
 	margin           : 0 122px;
 	background-color : rgba(0,0,0,.6);
 	color            : #fff;
+	padding          : 15px 45px;
+}
+.index-footer img{
+	width    : 65px;
+	position : absolute;
+	top      : 0;
+	right    : 0;
+}
+.index-footer .footer-title{
+	font-size : 18px;
+}
+.index-footer .footer-text{
+	font-size : 16px;
+	margin    : 0;
+	width     : 450px;
+}
+.index-footer .space{
+	width   : 100px;
+	display : inline-block;
 }
 
 
+/* index-cookhouse */
+.cookhouse{
+	background      : url('../imgs/bg.jpg') top center no-repeat;
+	background-size : cover;
+}
+.cookhouse:after{
+	content : '';
+	display : table;
+}
+.cookhouse .inner{
+	background-color : rgba(255,255,255,.75);
+	margin           : 170px 0;
+	text-align       : center;
+	padding          : 45px 100px;
+	font-size        : 16px;
+	line-height      : 26px;
+}
+.cookhouse .cookhouse-title{
+	margin-bottom : 55px;
+	font-size     : 48px;
+	font-weight   : bold;
+}
+.cookhouse .cookhouse-title p{
+	font-size : 40px;
+	margin-bottom: 10px;
+}
+.cookhouse p{
+	margin : 0;
+}
+.cookhouse .cookhouse-text{
+	margin-bottom: 45px;
+}
+
+
+/* index-reserve */
+.index-reserve{
+	background      : url('../imgs/img4.jpg') top center no-repeat;
+	background-size : cover;
+}
+.index-reserve:after{
+	content : '';
+	display : table;
+	padding : 1.1%;
+}
+.index-reserve .inner{
+	padding          : 45px 100px;
+	background-color : rgba(255,255,255,.75);
+	margin           : 230px 0;	
+	text-align       : center;
+	font-size        : 30px;
+	line-height      : 26px;
+	line-height      : 30px;
+}
+.index-reserve .reserve-title{
+	font-size     : 48px;
+	margin-bottom : 50px;
+}
+
+
+/* index-menu */
+.index-menu{
+	background      : url('../imgs/index-menu.png') top center no-repeat;
+	background-size : cover;
+}
+.index-menu:after{
+	content : '';
+	display : table;
+}
+.index-menu .menu{
+	margin    : 94px 0;
+	font-size : 16px;
+}
+.index-menu .title{
+	text-align : center;
+	font-size  : 48px;
+}
+.index-menu ul.menu{
+	background-color: rgba(255,255,255,.75);
+	padding: 45px 100px;
+}
+
+
+/* index-contact */
+.index-contact{
+	background      : url('../imgs/contact.jpg') top center no-repeat;
+	background-size : cover;
+}
+.index-contact:after{
+	content : '';
+	display : table;
+}
+.index-contact .contact-title{
+	font-size : 48px;
+	color     : #000;
+}
+.index-contact .inner{
+	margin : 94px 0;
+}
 
 
 /* Menu Items */
@@ -506,7 +715,7 @@ ul {
 		width : 102px;
 	}
 	.content .index-p{
-		font-size: 14px;
+		font-size: 24px;
 	}
 	.content .index-btn{
 		font-size : 14px;
@@ -520,5 +729,52 @@ ul {
 	}
 	.footer p{
 		font-size : 12px;
+	}
+	.index-footer .row{
+		margin  : 0;
+		padding : 15px 0;
+	}
+	.index-footer p{
+		margin : 0;
+	}
+	.cookhouse .inner,.index-menu ul.menu,.index-reserve .inner,.index-contact .inner{
+		padding : 30px;
+	}
+	.contact-bg .bottom-inner{
+		padding : 0 120px;
+	}
+	.contact-bg{
+		margin-top: 40px;
+	}
+	.banner-inner{
+		position : absolute;
+		top      : 20%;
+	}
+	.gallery-content{
+		padding : 60px 40px;
+	}
+	.banner-inner .banner-btn .btn{
+		width : 150px;		
+	}
+	.events-content{
+		padding : 100px 0;
+	}
+	.events-content .events-img{
+		width  : 200px;
+		height : 200px;
+	}
+	#profile .content{
+		margin : 0px;
+	}
+	#profile .about-item{
+		text-align : center;
+	}
+	#profile .about-img-1{
+		float  : none;
+		margin : 50px 0 0;
+	}
+	#profile .about-img-2{
+		float  : none;
+		margin : 0;
 	}
 }
