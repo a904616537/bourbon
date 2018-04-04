@@ -25,10 +25,10 @@
 	    var bIsAndroid = sUserAgent.match(/android/i) == "android";  
 	    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
 	    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
-	    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){  
-	        window.location.href="http://106.14.94.210:8140";  
-	    } else {  
-	        window.location.href="http://106.14.94.210:8141";  
+	    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
+	        // window.location.href="http://106.14.94.210:8140";  
+	    } else {
+	        window.location.href="http://106.14.94.210:8141";
 	    }
 	}
 	

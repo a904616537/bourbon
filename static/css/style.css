@@ -368,25 +368,12 @@ a{color: #fff;}
 }
 
 
-<<<<<<< HEAD
-/*  footer  */
-
-.footer{
-	background-color: #702A16;
-	position : relative;
-}
-=======
-/*  index-footer  */
-<<<<<<< HEAD
->>>>>>> 49dc9e94945798fdf385b65b3c707b1b52217bf2
 .index-footer{
 	position : fixed;
 	bottom   : 0;
 	left     : 0;
 	right    : 0;
 }
-=======
->>>>>>> 2569638dd656529c17f6fcf7e94f09dd201fd8bf
 .index-footer .row{
 	margin           : 0 122px;
 	background-color : rgba(0,0,0,.6);
@@ -411,9 +398,6 @@ a{color: #fff;}
 	width   : 100px;
 	display : inline-block;
 }
-
-<<<<<<< HEAD
-=======
 
 /* index-cookhouse */
 .cookhouse{
@@ -515,7 +499,6 @@ a{color: #fff;}
 }
 
 
->>>>>>> 2569638dd656529c17f6fcf7e94f09dd201fd8bf
 /* Menu Items */
 .content .menu-splash{
 	width            : 1440px;
