@@ -55,7 +55,7 @@ a{color: #fff;}
 	font-weight   : bold;
 }
 .banner-inner .banner-btn .btn{
-	background-color : #AE8648;
+	background-color : #843A1C;
 	width            : 228px;
 	border-radius    : 5px;
 	font-size        : 20px;
@@ -84,7 +84,7 @@ a{color: #fff;}
 .content .index-btn{
 	width            : 228px;
 	line-height      : 50px;
-	background-color : #ae8648;
+	background-color : #843A1C;
 	border-radius    : 5px;
 	margin           : 50px auto 0;
 	font-size        : 20px;
@@ -102,7 +102,7 @@ a{color: #fff;}
 }
 .gallery-content{
 	padding          : 60px 100px;
-	color            : #AE8648;
+	color            : #843A1C;
 	background-color : #fff;
 }
 .gallery-text{
@@ -121,7 +121,7 @@ a{color: #fff;}
 }
 .events-banner .index-btn{
 	display          : inline-block;
-	background-color : #AE8648;
+	background-color : #843A1C;
 	width            : 228px;
 	margin           : 0 30px;
 	font-size        : 20px;
@@ -135,7 +135,7 @@ a{color: #fff;}
 	font-size        : 16px;
 }
 .events-content .event-tips{
-	background-color : #AE8648;
+	background-color : #843A1C;
 	color            : #fff;
 	width            : 260px;
 	font-size        : 48px;
@@ -148,7 +148,7 @@ a{color: #fff;}
 	font-weight      : bold;  
 }
 .events-content .event-bottomtip{
-	background-color : #AE8648;
+	background-color : #843A1C;
 	color            : #fff;
 	width            : 416px;
 	line-height      : 60px;
@@ -310,7 +310,7 @@ a{color: #fff;}
 }
 .contact-content .contact-title{
 	font-size     : 24px;
-	color         : #AE8648;
+	color         : #843A1C;
 	text-align    : center;
 	margin-bottom : 30px;
 }
@@ -327,7 +327,7 @@ a{color: #fff;}
 }
 .contact-content .infor-title{
 	font-size : 18px;
-	color     : #AE8648;
+	color     : #843A1C;
 }
 .contact-content .infor-text{
 	font-size : 16px;
@@ -517,7 +517,7 @@ a{color: #fff;}
 	color: white;
 	width            : 228px;
 	line-height      : 50px;
-	background-color : #AE8648;
+	background-color : #843A1C;
 	border-radius    : 5px;
 	margin           : 50px 30px 0;
 	font-size        : 20px;
@@ -680,7 +680,7 @@ ul.menu li:after {
 .promo-card {
 	width: 360px;
 	height: 539px;
-	color: #AE8648;
+	color: #843A1C;
 	font-size: 16px;
 	display: inline-block;
 	margin: 0px 80px 40px 0px;
