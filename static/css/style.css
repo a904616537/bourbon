@@ -1,3 +1,5 @@
+body{font-family : myFont;}
+@font-face{font-family: myFont; src: url('../fonts/Montserrat-Regular.ttf');}
 /*  header  */
 a:hover{text-decoration: none; color: #fff;}
 a{color: #fff;}
@@ -90,7 +92,7 @@ a{color: #fff;}
 
 /*  gallery  */
 .gallery-banner{
-	background      : url('../imgs/gallery-banner.jpg') top center no-repeat;
+	background      : url('../photo/photo2.jpg') top center no-repeat;
 	background-size : 100% auto;
 }
 .gallery-banner:after{
@@ -201,7 +203,7 @@ a{color: #fff;}
 
 /*  careers  */
 .careers-banner{
-	background      : url('../imgs/careers-banner.jpg') top center no-repeat;
+	background      : url('../photo/photo3.jpg') top center no-repeat;
 	background-size : 100% auto;
 }
 .careers-banner:after{
@@ -229,7 +231,7 @@ a{color: #fff;}
 
 /* about */
 .about-banner{
-	background      : url('static/imgs/about-banner.jpg') top center no-repeat;
+	background      : url('../photo/photo4.jpg') top center no-repeat;
 	background-size : 100% auto;
 }
 .about-banner:after{
@@ -294,7 +296,8 @@ a{color: #fff;}
 
 /*  contact  */
 .contact-bg{
-	background      : url('../imgs/bg.jpg') top center repeat-y;
+
+	background      : url('../photo/photo2.jpg') top center repeat-y;
 	background-size : 100% auto;
 	margin-top      : 80px;
 }
@@ -401,7 +404,8 @@ a{color: #fff;}
 
 /* index-cookhouse */
 .cookhouse{
-	background      : url('../imgs/bg.jpg') top center no-repeat;
+
+	background      : url('../photo/photo1.jpg') top center no-repeat;
 	background-size : cover;
 }
 .cookhouse:after{
@@ -435,7 +439,7 @@ a{color: #fff;}
 
 /* index-reserve */
 .index-reserve{
-	background      : url('../imgs/img4.jpg') top center no-repeat;
+	background      : url('../photo/photo4.jpg') top center no-repeat;
 	background-size : cover;
 }
 .index-reserve:after{
@@ -460,7 +464,7 @@ a{color: #fff;}
 
 /* index-menu */
 .index-menu{
-	background      : url('../imgs/index-menu.png') top center no-repeat;
+	background      : url('../photo/photo2.jpg') top center no-repeat;
 	background-size : cover;
 }
 .index-menu:after{
@@ -598,9 +602,9 @@ a{color: #fff;}
 	padding          : 40px 60px;
 	overflow-x       : hidden;
 	list-style       : none;
-	background-image : url("../imgs/Menu/1.jpg"), url("../imgs/Menu/2.jpg"),
-		url("../imgs/Menu/1440*720-2.jpg"),
-		url("../imgs/Menu/1440*720-4.jpg");
+	background-image : url("../photo/photo1.jpg"), url("../photo/photo2.jpg"),
+		url("../photo/photo3.jpg"),
+		url("../photo/photo4.jpg");
 }
 .back-block {
 	width            : 1440px;
