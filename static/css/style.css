@@ -487,7 +487,7 @@ a{color: #fff;}
 
 /* index-contact */
 .index-contact{
-	background      : url('../imgs/contact.jpg') top center no-repeat;
+	background      : url('../photo/photo6.jpg') top center no-repeat;
 	background-size : cover;
 }
 .index-contact:after{
