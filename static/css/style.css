@@ -747,13 +747,19 @@ ul.menu li:after {
 	width: 100%;
 }
 .close {
+	opacity: 0.4;
 	position: absolute;
-	font-size: 24px;
-	top: 15px;
-	right: 25px;
+	font-size: 30px;
+	top: 0px;
+	right: 0px;
 	transition: 0.3s;
 	z-index: 999;
 	background-color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 15px;
 }
 
 .close:hover, .close:focus {
