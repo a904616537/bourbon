@@ -1,4 +1,5 @@
-// 中英文切换
+	browserRedirect();
+	// 中英文切换
 	var type=navigator.appName
 	if (type=="Netscape"){
 	var lang = navigator.language
@@ -14,7 +15,22 @@
 		var lang = $('.langToggle .nav-img').attr('alt');
 		setLang(lang);
 	});
-	
+	function browserRedirect() {  
+	    var sUserAgent = navigator.userAgent.toLowerCase();  
+	    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+	    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+	    var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+	    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+	    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+	    var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+	    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+	    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
+	    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
+	        // window.location.href="http://106.14.94.210:8140";  
+	    } else {
+	        window.location.href="http://106.14.94.210:8141";
+	    }
+	}
 	
 	function setLang(lang){
 		if(lang == 'en'){
