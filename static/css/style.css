@@ -35,7 +35,7 @@ a{color: #fff;}
 	text-align : center;
 }
 .header .nav-logo{
-	width : 232px;
+	width : 100%;
 }
 .header .nav-img{
 	width : 54px;
@@ -526,6 +526,7 @@ a{color: #fff;}
 
 .menu-page-title {
 	font-size : 48px;
+	color: #fff;
 }
 
 
@@ -544,9 +545,11 @@ a{color: #fff;}
 
 .menu-section-headers {
 	margin: 42px auto 20px;
+	color: #000;
 }
 .drinks-section-headers {
 	margin: 35px auto 10px;
+	color: #000;
 }
 
 .menu-title-container {
@@ -607,12 +610,15 @@ a{color: #fff;}
 		url("../photo/photo4.jpg");
 }
 .back-block {
-	width            : 1440px;
-	height			  : 720px;
-	overflow-x       : hidden;
-	overflow: visible;
 	list-style       : none;
-	
+	background-size  : inherit;
+	text-align       : left;
+	padding:0 200px 60px;
+}
+.back-block .inner-top {
+	margin           : 0 auto;
+	padding          : 60px;
+	background-color : rgba(255,255,255,.75);
 }
 
 /* Menu item typsetting */
