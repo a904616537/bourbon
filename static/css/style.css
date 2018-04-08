@@ -35,7 +35,11 @@ a{color: #fff;}
 	text-align : center;
 }
 .header .nav-logo{
-	width : 232px;
+	width     : 18%;
+	max-width : 232px;
+}
+.header .nav-logo img{
+	width : 100%;
 }
 .header .nav-img{
 	width : 54px;
@@ -521,6 +525,7 @@ a{color: #fff;}
 
 .menu-page-title {
 	font-size : 48px;
+	color: #fff;
 }
 
 
@@ -539,9 +544,11 @@ a{color: #fff;}
 
 .menu-section-headers {
 	margin: 42px auto 20px;
+	color: #000;
 }
 .drinks-section-headers {
 	margin: 35px auto 10px;
+	color: #000;
 }
 
 .menu-title-container {
@@ -602,12 +609,15 @@ a{color: #fff;}
 		url("../photo/photo4.jpg");
 }
 .back-block {
-	width            : 1440px;
-	height			  : 720px;
-	overflow-x       : hidden;
-	overflow: visible;
 	list-style       : none;
-	
+	background-size  : inherit;
+	text-align       : left;
+	padding:0 200px 60px;
+}
+.back-block .inner-top {
+	margin           : 0 auto;
+	padding          : 60px;
+	background-color : rgba(255,255,255,.75);
 }
 
 /* Menu item typsetting */
@@ -666,8 +676,8 @@ ul.menu li:after {
 }
 
 .promo-content {
-	width: 1442px;
-	height: 1281px;
+	width: 1440px;
+	margin:0 auto;
 	background-color: white;
 	padding: 90px 0px 72px 108px;
 }
@@ -712,29 +722,33 @@ ul.menu li:after {
 	display: none;
 	position: fixed;
 	z-index: 1;
-	padding: 170px;
 	left: 0;
 	top: 0;
-	width: 1442px;
-	height: 1725px;
 	overflow: auto;
-	background-color: rgba(0,0,0,0.6);;
+	background-color: rgba(0,0,0,0.6);
+	padding: 150px 20%;
 }
 
 /* modal content*/
 .modal-content{
 	margin: auto;
 	display: block;
-	width: 1000px;
-	height: 1500px;
 
 }
-
+.modal-main {
+	position: relative;
+}
+.modal-main img {
+	width: 100%;
+}
 .close {
 	position: absolute;
+	font-size: 24px;
 	top: 15px;
-	right: 35px;
+	right: 25px;
 	transition: 0.3s;
+	z-index: 999;
+	background-color: #fff;
 }
 
 .close:hover, .close:focus {
