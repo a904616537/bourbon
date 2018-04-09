@@ -321,6 +321,7 @@ a{color: #fff;}
 .contact-content .map-img{
 	float        : left;
 	margin-right : 35px;
+	margin-top   : 20px;
 }
 .contact-content .infor{
 	padding     : 50px 0;
