@@ -61,13 +61,16 @@ a{color: #fff;}
 	font-weight   : bold;
 }
 .banner-inner .banner-btn .btn{
-	background-color : #843A1C;
+	background-color : #324754;
 	width            : 228px;
 	border-radius    : 5px;
 	font-size        : 20px;
 	margin           : 0 30px;
 	line-height      : 36px;
 	color            : #fff;
+}
+.banner-inner .banner-btn .btn:hover{
+	background-color : #212f38;
 }
 
 
@@ -91,10 +94,13 @@ a{color: #fff;}
 .content .index-btn{
 	width            : 228px;
 	line-height      : 50px;
-	background-color : #843A1C;
+	background-color : #324754;
 	border-radius    : 5px;
 	margin           : 50px auto 0;
 	font-size        : 20px;
+}
+.content .index-btn:hover{
+	background-color : #212f38;
 }
 
 /*  gallery  */
@@ -109,7 +115,7 @@ a{color: #fff;}
 }
 .gallery-content{
 	padding          : 60px 100px;
-	color            : #843A1C;
+	color            : #324754;
 	background-color : #fff;
 }
 .gallery-text{
@@ -142,7 +148,7 @@ a{color: #fff;}
 	font-size        : 16px;
 }
 .events-content .event-tips{
-	background-color : #843A1C;
+	background-color : #324754;
 	color            : #fff;
 	width            : 260px;
 	font-size        : 48px;
@@ -155,7 +161,7 @@ a{color: #fff;}
 	font-weight      : bold;  
 }
 .events-content .event-bottomtip{
-	background-color : #843A1C;
+	background-color : #324754;
 	color            : #fff;
 	width            : 416px;
 	line-height      : 60px;
@@ -178,7 +184,7 @@ a{color: #fff;}
 	font-weight : normal;
 }
 .events-content .events-item{
-	background-color : #DFCFB6;
+	background-color : rgba(50,71,84,.2);
 	padding          : 105px 0px 50px;
 	position         : relative;
 	width            : 100%;
@@ -251,12 +257,12 @@ a{color: #fff;}
 }
 #story{
 	padding          : 60px 0 30px;
-	background-color : rgba(132,58,28,.2);
+	background-color : rgba(50,71,84,.2);
 	font-size        : 24px;
 }
 #story .story-text{
 	font-size   : 16px;
-	width       : 700px;
+	width       : 1100px;
 	margin      : 0 auto 30px;
 	line-height : 30px;
 	text-align  : center;
@@ -265,7 +271,7 @@ a{color: #fff;}
 	padding : 60px 0 0;
 }
 #profile .content{
-	background-color : rgba(132,58,28,.2);
+	background-color : rgba(50,71,84,.2);
 	margin           : 6em 12.5em 0;
 }
 #profile .about-item{
@@ -317,7 +323,7 @@ a{color: #fff;}
 }
 .contact-content .contact-title{
 	font-size     : 24px;
-	color         : #843A1C;
+	color         : #324754;
 	text-align    : center;
 	margin-bottom : 30px;
 }
@@ -335,13 +341,13 @@ a{color: #fff;}
 }
 .contact-content .infor-title{
 	font-size : 18px;
-	color     : #843A1C;
+	color     : #324754;
 }
 .contact-content .infor-text{
 	font-size : 16px;
 }
 .contact-bg .bottom{
-	background-color : #843A1C;
+	background-color : #324754;
 	text-align       : center;
 	padding          : 30px 0;
 	color            : #FFF;
@@ -524,16 +530,18 @@ a{color: #fff;}
 }
 
 .menu-btn{
-	color: white;
+	color            : white;
 	width            : 228px;
 	line-height      : 50px;
-	background-color : #843A1C;
+	background-color : #324754;
 	border-radius    : 5px;
 	margin           : 50px 30px 0;
 	font-size        : 20px;
 	display          : inline-block;
 }
-
+.menu-btn:hover{
+	background-color : #212f38;
+}
 .menu-page-title {
 	font-size : 48px;
 	color: #fff;
@@ -576,16 +584,16 @@ a{color: #fff;}
 
 /*top title*/
 .border-box {
-	content: "";
-	width: 100%;
-   overflow: hidden;
-   height: 1em;
-   border-top: 1px solid;
+	content    : "";
+	width      : 100%;
+	overflow   : hidden;
+	height     : 1em;
+	border-top : 1px solid;
 
 }
 
 .menu-title{
-	color      : #9C7338;
+	color      : #324754;
 	font-size  : 24px;
 	text-align : center;
 	position   : relative;
@@ -696,7 +704,7 @@ ul.menu li:after {
 .promo-card {
 	width: 360px;
 	height: 539px;
-	color: #843A1C;
+	color: #324754;
 	font-size: 16px;
 	display: inline-block;
 	margin: 0px 80px 40px 0px;
