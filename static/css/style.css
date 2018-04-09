@@ -236,9 +236,11 @@ a{color: #fff;}
 .careers-content .item{
 	font-size     : 20px;
 	margin-bottom : 60px;
+	text-align    : center;
 }
 .careers-content .item span{
-	margin-left : 20px;
+	display: inline-block;
+	width: 30px;
 }
 
 
