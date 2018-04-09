@@ -35,11 +35,13 @@ a{color: #fff;}
 	text-align : center;
 }
 .header .nav-logo{
-	width     : 18%;
-	max-width : 232px;
+	width      : 18%;
+	text-align : center;
 }
 .header .nav-logo img{
-	width : 100%;
+	width     : 100%;
+	max-width : 232px;
+	min-width : 160px;
 }
 .header .nav-img{
 	width : 54px;
@@ -363,6 +365,13 @@ a{color: #fff;}
 }
 .contact-bg .bottom-infor{
 	margin-left : 60px;
+}
+.contact-bg .bottom-infor ul li{
+	float: left;
+	margin: 10px;
+}
+.contact-bg .bottom-infor ul li img{
+	width: 35px;
 }
 .contact-bg .item-left{
 	display      : inline-block;
@@ -743,13 +752,19 @@ ul.menu li:after {
 	width: 100%;
 }
 .close {
+	opacity: 0.4;
 	position: absolute;
-	font-size: 24px;
-	top: 15px;
-	right: 25px;
+	font-size: 30px;
+	top: 0px;
+	right: 0px;
 	transition: 0.3s;
 	z-index: 999;
 	background-color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 15px;
 }
 
 .close:hover, .close:focus {
