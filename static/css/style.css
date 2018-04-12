@@ -363,6 +363,9 @@ a{color: #fff;}
 	padding : 0 220px;
 	width   : 100%;
 }
+.contact-bg .bottom-infor .bottom-space{
+	height: 10px;
+}
 .contact-bg .bottom-inner .float-left,.contact-bg .left-grid .bottom-item{
 	width : 50%;
 }
@@ -398,7 +401,7 @@ a{color: #fff;}
 .contact-bg .item-right{
 	display   : inline-block;
 	font-size : 16px;
-	width     : 64%;
+	width     : 63%;
 }
 
 
