@@ -28,7 +28,7 @@
 	    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
 	        // window.location.href="http://106.14.94.210:8140";  
 	    } else {
-	        window.location.href="http://106.14.94.210:8141";
+	        window.location.href="http://mobile.bourboncookhouse.com/";
 	    }
 	}
 	
