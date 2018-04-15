@@ -9,10 +9,18 @@
 	}
 	//取得浏览器语言的前两个字母
 	var lang = lang.substr(0,2)
-	setLang(lang);	
+
+	var cookie_lang = $.cookie('lang');
+	if(cookie_lang) {
+		setLang(cookie_lang);
+	} else {
+		setLang(lang);
+	}
+	
 	
 	$('.langToggle').on('click',function(){
 		var lang = $('.langToggle .nav-img').attr('alt');
+		$.cookie('lang', lang, { expires: 7 });
 		setLang(lang);
 	});
 	function browserRedirect() {  
