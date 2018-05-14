@@ -163,12 +163,13 @@ a{color: #fff;}
 .events-content .event-bottomtip{
 	background-color : #324754;
 	color            : #fff;
-	width            : 416px;
+	/*width            : 416px;*/
+	width: 600px;
 	line-height      : 60px;
 	position         : absolute;
 	bottom           : -30px;
 	left             : 50%;
-	margin-left      : -208px;
+	margin-left      : -300px;
 	font-size        : 24px;
 	text-align       : center;
 	font-weight      : bold;
